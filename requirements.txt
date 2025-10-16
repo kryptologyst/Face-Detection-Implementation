@@ -1,0 +1,36 @@
+# Face Detection Project Requirements
+
+# Core dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=9.5.0
+PyYAML>=6.0
+
+# Web interface
+streamlit>=1.28.0
+
+# Optional advanced detection methods
+# Uncomment the ones you want to use:
+
+# MTCNN (Multi-task CNN)
+# mtcnn>=0.1.1
+
+# MediaPipe (Google's solution)
+# mediapipe>=0.10.0
+
+# FaceNet PyTorch (state-of-the-art)
+# torch>=2.0.0
+# torchvision>=0.15.0
+# facenet-pytorch>=2.5.3
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Data handling
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0

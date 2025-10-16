@@ -1,0 +1,24 @@
+# Face Detection Configuration
+
+detection:
+  method: "opencv"  # opencv, mtcnn, mediapipe, facenet
+  confidence_threshold: 0.5
+  min_face_size: 30
+  scale_factor: 1.1
+  min_neighbors: 5
+
+ui:
+  title: "Face Detection Demo"
+  theme: "light"
+  sidebar_width: 300
+  max_image_size: 800
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: null
+
+# Directory paths
+data_dir: "data"
+models_dir: "models"
+output_dir: "output"
